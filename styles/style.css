@@ -1,9 +1,8 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .body {
-  width: 1100px;
   height: 3028px;
   overflow-x: hidden;
 }
@@ -19,14 +18,14 @@ html {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   gap: 32px;
-  width: 391.4786376953125px;
-  height: 22.00001335144043px;
   top: 133px;
   left: 50px;
   margin: 133px 36px 138px 50px;
@@ -90,6 +89,8 @@ html {
   height: 757px;
   width: 100%;
   position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .cover__title {
   width: 1000px;
@@ -173,6 +174,8 @@ html {
 .lots {
   padding: 180px 24px 0px 24px;
   margin-top: 8px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .lots__heading {
@@ -272,8 +275,8 @@ html {
   margin: 35px 0 193px 47px;
   align-items: flex-start;
   padding: 120px 24px 180px 24px;
-  width: 1052px;
   height: 595px;
+  max-width: 1100px;
 }
 
 .about__logo {
@@ -324,10 +327,9 @@ html {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  width: 1100px;
+  max-width: 1100px;
   height: 180px;
   padding: 0px 24px 0 24px;
-  margin-top: 180px;
   margin-left: 24px;
   margin-top: 205px;
 }
