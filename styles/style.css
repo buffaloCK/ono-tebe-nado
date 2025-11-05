@@ -1,18 +1,5 @@
-html {
-  min-width: 1100px;
-  overflow-x: auto;
-}
-
 body {
-  min-width: 1100px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-.container {
-  width: 100%;
-  min-width: 1100px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -26,47 +13,6 @@ body {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  min-width: 1100px;
-}
-
-.main {
-  min-width: 1100px;
-}
-
-.cover {
-  background-image: url("/images/cover.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 757px;
-  position: relative;
-  min-width: 1100px; 
-}
-
-.lots {
-  padding: 180px 24px 0px 24px;
-  margin-top: 8px;
-  min-width: 1100px; 
-}
-
-.about {
-  display: flex;
-  gap: 72px;
-  margin: 35px 0 193px 47px;
-  align-items: flex-start;
-  padding: 120px 24px 180px 24px;
-  height: 595px;
-  min-width: 1100px; 
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  height: 180px;
-  padding: 0px 24px 0 24px;
-  margin-top: 205px;
-  margin-left: 24px;
-  min-width: 1100px;
 }
 
 .header__links-list {
@@ -122,6 +68,14 @@ body {
   z-index: -1;
 }
 
+.cover {
+  background-image: url("/images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 757px;
+  width: 100%;
+  position: relative;
+}
 .cover__title {
   width: 1000px;
   height: 385px;
@@ -148,7 +102,7 @@ body {
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 21px;
+    margin-top: 21px;
   margin-left: 20px;
 }
 
@@ -199,6 +153,11 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.lots {
+  padding: 180px 24px 0px 24px;
+  margin-top: 8px;
 }
 
 .lots__heading {
@@ -290,6 +249,16 @@ body {
   margin-left: 40px;
 }
 
+.about {
+  display: flex;
+  gap: 72px;
+  margin: 35px 0 193px 47px;
+  align-items: flex-start;
+  padding: 120px 24px 180px 24px;
+  width: 1052px;
+  height: 595px;
+}
+
 .about__logo {
   width: 240px;
   height: 240px;
@@ -334,15 +303,27 @@ body {
   word-spacing: 0px;
 }
 
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 1100px;
+  height: 180px;
+  padding: 0px 24px 0 24px;
+  margin-top: 205px;
+  margin-left: 24px;
+}
+
+
 .address {
   justify-self: start;
   font-family: Raleway;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0%;
-  margin-top: 38px;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 24.3px;
+letter-spacing: 0%;
+margin-top: 38px;
 }
 
 .footer__social-list {
@@ -359,9 +340,9 @@ body {
 }
 
 .footer__menu {
-  justify-self: center;
-  margin-top: 6px;
-  margin-right: 50px;
+justify-self: center;
+margin-top: 6px;
+margin-right: 50px;
 }
 
 .footer__menu-link_active {
